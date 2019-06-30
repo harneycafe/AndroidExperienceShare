@@ -1,0 +1,15 @@
+#### 1.AOP资料
+[安卓AOP三剑客:APT,AspectJ,Javassist](https://www.jianshu.com/p/dca3e2c8608a)
+<br/>
+安卓AOP三剑客是必看的，给我讲解了APT、Aspect、Javassist等三个代表性解决切面编程的工具的作用时期，以及偏向于处理的业务。
+
+如apt运行在编译期，一般要配合javapoet生成代码，aspectj运行在运行期，javassist
+务。如apt运行在编译期，一般要配合javapoet生成代码，aspectj运行在代码运行期，javassist会直接修改字节码文件。
+
+#### APT相关
+APT最需要注意的点是APT调试，也就是注解处理器的调试，参考[这篇文章配置Android Studio进行调试](https://www.jianshu.com/p/912d2f2c0707)
+
+#### AspectJ相关
+AspectJ麻烦的一点在于不仅需要导包，还需要针对gradle进行配置。经过实践，我建议用[hujinang 开源的aspectj配置](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx)。
+#### Javassist相关
+随后再补充
