@@ -94,10 +94,10 @@ Flutter和Android原生有两种混合开发模式，一种是原生项目下集
  ./gradlew :${plugin_name}:uploadArchives -PfGroupId=${fGroupId} -PfArtifactId=${plugin_name} -PfVersion=${fVersion}
  cd ../
  done
- Echo “>>> 任务完成!”```
+ Echo “>>> 任务完成!”
+ ```
 
 **android_flutter_maven.gradle ：**
-
 ```
 apply plugin: ‘maven’
 final def localMaven = true //true: 发布到本地maven仓库， false： 发布到maven私服
